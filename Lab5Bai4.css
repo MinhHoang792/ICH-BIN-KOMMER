@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    height: 100vh;
+    background: url("images/image.png") center/cover no-repeat;
+    position: relative;
+    color: white;
+}
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.content{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h1 {
+    font-size: 48px;
+    letter-spacing: 4px;
+}
+.content h2{
+    color:#698f3f;
+    font-family:"Catamaran", sans-serif;
+}
+.content__btn{
+    font-size: 1.4rem;
+    padding: 2rem 3rem;
+}
+.btn{
+    color: #3a3e3b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #698f3f;
+    outline: 1px solid #698f3f;
+    outline-offset: 1px;
+    padding: 1rem 1rem;
+}

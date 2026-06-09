@@ -1,0 +1,192 @@
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0.1;
+                transform: translateX(-100%);
+            }
+            50% {
+                opacity: 0.7;
+                transform: translateX(25%);
+            }
+            75% {
+                opacity: 0.9;
+                transform: translateX(-10%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInRight {
+            0% {
+                opacity: 0.1;
+                transform: translateX(100%);
+            }
+            50% {
+                opacity: 0.7;
+                transform: translateX(-25%);
+            }
+            75% {
+                opacity: 0.9;
+                transform: translateX(10%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes show {
+            0% {
+                opacity: 0;
+                transform: scale(2);
+            }
+            25% {
+                transform: scale(1.5);
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            75% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            height: 100vh;
+            background: url("images/image.png")
+            center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+        .heading_first {
+            font-size: 48px;
+            letter-spacing: 4px;
+            color: white;
+            margin-bottom: 10px;
+            animation: slideInRight 5s ease-in-out;
+        }
+        .heading_primary {
+            font-size: 48px;
+            color: white;
+            letter-spacing: 4px;
+            margin-bottom: 25px;
+            animation: slideInLeft 5s ease-in-out;
+        }
+        .header_btn, .header__btn:visited{
+            display: inline-block;
+            padding: 12px 30px;
+            color: #3a3e3b;
+            background-color: #698f3f;
+            outline: 1px solid #698f3f;
+            outline-offset: 1px;
+            padding: 1rem 1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 0.7rem;
+            animation: show 2s 1s linear;
+            animation-fill-mode: backwards;
+        }
+        .header_btn:hover {
+            background: #8bc34a;
+            color: #3a3e3b;
+        }
+.content{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#698f3f;
+
+}
+.nav {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.nav__link:link,
+.nav__link:visited {
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(10%);
+}
+.nav__link:active {
+    transform: translateX(10%) scale(0.95);
+}
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0.1;
+                transform: translateX(-100%);
+            }
+            50% {
+                opacity: 0.7;
+                transform: translateX(25%);
+            }
+            75% {
+                opacity: 0.9;
+                transform: translateX(-10%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInRight {
+            0% {
+                opacity: 0.1;
+                transform: translateX(100%);
+            }
+            50% {
+                opacity: 0.7;
+                transform: translateX(-25%);
+            }
+            75% {
+                opacity: 0.9;
+                transform: translateX(10%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes show {
+            0% {
+                opacity: 0;
+                transform: scale(2);
+            }
+            25% {
+                transform: scale(1.5);
+            }
+            50% {
+                transform: scale(0.9);
+            }
+            75% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }

@@ -1,0 +1,57 @@
+.header{
+    background-image: url(images/image.png);
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 300px;
+}
+.nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    padding: 2rem 0;
+    margin: 0;
+}
+.nav_item {
+    margin: 0 1.5rem;
+}
+.nav_link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: calc(0.7rem * 0.4);
+    color: #3a3e3b;
+    transition: color 0.3s;
+}
+.header h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    margin-bottom: 2rem;
+}
+.header h2 {
+    font-family: "Grand Hotel", cursive;
+    font-size: 1.6rem;
+    color: #698f3f;
+    letter-spacing: calc(0.7rem * 1.2);
+    margin-bottom: 1rem;
+}
+.header__btn{
+    font-size: 1.4rem;
+    padding: 2rem 3rem;
+}
+.btn{
+    color: #3a3e3b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #698f3f;
+    outline: 4px solid #698f3f;
+    outline-offset: 1px;
+    padding: 1rem 1rem;
+}
